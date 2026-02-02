@@ -143,6 +143,12 @@ export const Footer = () => {
           <p className="text-muted text-sm">
             © {new Date().getFullYear()} {siteConfig.name} | Todos os direitos reservados
           </p>
+          <Link 
+            to="/politica-privacidade/"
+            className="text-muted hover:text-card transition-colors text-sm mt-2 inline-block"
+          >
+            Política de Privacidade
+          </Link>
         </div>
       </div>
     </footer>
