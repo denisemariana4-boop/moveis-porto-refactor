@@ -2,16 +2,12 @@ import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { siteConfig } from "@/lib/seo";
 import { servicos, bairros } from "@/lib/data";
-import { NeighborhoodScrollBand } from "./NeighborhoodScrollBand";
 
 export const Footer = () => {
-  const featuredBairros = bairros.slice(0, 10);
   const featuredServicos = servicos.slice(0, 6);
 
   return (
     <footer className="bg-foreground text-secondary">
-      {/* Scroll band with all neighborhoods */}
-      <NeighborhoodScrollBand />
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Sobre */}
@@ -72,93 +68,78 @@ export const Footer = () => {
             </ul>
           </div>
 
-          {/* Regiões */}
-          <div>
+          {/* Regiões Atendidas - Todos os bairros em scroll */}
+          <div className="lg:col-span-2">
             <h3 className="font-heading font-bold text-lg mb-4 text-card">
               Regiões Atendidas
             </h3>
-            <ul className="space-y-2 text-sm">
-              {featuredBairros.map((bairro) => (
-                <li key={bairro.slug}>
-                  <Link 
-                    to={`/regioes-atendidas/${bairro.slug}/`}
-                    className="text-muted hover:text-card transition-colors"
-                  >
-                    {bairro.nome}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link 
-                  to="/regioes-atendidas/"
-                  className="text-primary hover:text-primary/80 font-medium transition-colors"
-                >
-                  Ver todas →
-                </Link>
-              </li>
-            </ul>
+            <div className="h-64 overflow-y-auto pr-2 scrollbar-thin">
+              <ul className="grid grid-cols-2 sm:grid-cols-3 gap-x-4 gap-y-1 text-sm">
+                {bairros.map((bairro) => (
+                  <li key={bairro.slug}>
+                    <Link 
+                      to={`/regioes-atendidas/${bairro.slug}/`}
+                      className="text-muted hover:text-card transition-colors"
+                    >
+                      {bairro.nome}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <Link 
+              to="/regioes-atendidas/"
+              className="inline-block mt-3 text-primary hover:text-primary/80 font-medium transition-colors text-sm"
+            >
+              Ver todas →
+            </Link>
           </div>
+        </div>
 
-          {/* Links Úteis */}
-          <div>
-            <h3 className="font-heading font-bold text-lg mb-4 text-card">
-              Links Úteis
-            </h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <Link 
-                  to="/"
-                  className="text-muted hover:text-card transition-colors"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/sobre/"
-                  className="text-muted hover:text-card transition-colors"
-                >
-                  Quem Somos
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/servicos/"
-                  className="text-muted hover:text-card transition-colors"
-                >
-                  Serviços
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/blog/"
-                  className="text-muted hover:text-card transition-colors"
-                >
-                  Blog
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/contato/"
-                  className="text-muted hover:text-card transition-colors"
-                >
-                  Contato
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/regioes-atendidas/"
-                  className="text-muted hover:text-card transition-colors"
-                >
-                  Regiões Atendidas
-                </Link>
-              </li>
-            </ul>
+        {/* Links Úteis - Movidos para uma linha separada */}
+        <div className="mt-8 pt-6 border-t border-muted/30">
+          <div className="flex flex-wrap justify-center gap-6 text-sm">
+            <Link 
+              to="/"
+              className="text-muted hover:text-card transition-colors"
+            >
+              Home
+            </Link>
+            <Link 
+              to="/sobre/"
+              className="text-muted hover:text-card transition-colors"
+            >
+              Quem Somos
+            </Link>
+            <Link 
+              to="/servicos/"
+              className="text-muted hover:text-card transition-colors"
+            >
+              Serviços
+            </Link>
+            <Link 
+              to="/blog/"
+              className="text-muted hover:text-card transition-colors"
+            >
+              Blog
+            </Link>
+            <Link 
+              to="/contato/"
+              className="text-muted hover:text-card transition-colors"
+            >
+              Contato
+            </Link>
+            <Link 
+              to="/regioes-atendidas/"
+              className="text-muted hover:text-card transition-colors"
+            >
+              Regiões Atendidas
+            </Link>
           </div>
         </div>
 
         {/* Copyright */}
-        <div className="mt-10 pt-6 border-t border-muted/30 text-center">
+        <div className="mt-6 pt-6 border-t border-muted/30 text-center">
           <p className="text-muted text-sm">
             © {new Date().getFullYear()} {siteConfig.name} | Todos os direitos reservados
           </p>
