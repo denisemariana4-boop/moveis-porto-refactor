@@ -4,7 +4,8 @@ import { SEOHead } from "@/components/SEOHead";
 import { ServiceCard } from "@/components/ServiceCard";
 import { CTASection } from "@/components/CTASection";
 import { siteConfig, generateLocalBusinessSchema, generateFAQSchema } from "@/lib/seo";
-import { servicos, blogPosts } from "@/lib/data";
+import { servicos } from "@/lib/data";
+import { blogPosts } from "@/data/blog-posts";
 import { CheckCircle, Clock, Shield, Award } from "lucide-react";
 import heroImage from "@/assets/hero-montador.jpg";
 import sobreImage from "@/assets/sobre-nos.jpg";
@@ -194,13 +195,16 @@ const Index = () => {
             {blogPosts.map((post) => (
               <Link 
                 key={post.slug}
-                to={`/${post.slug}/`}
+                to={`/blog/${post.slug}/`}
                 className="card-service group block"
               >
                 <div className="aspect-[16/10] overflow-hidden bg-muted">
-                  <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                    <span className="text-sm">Imagem do artigo</span>
-                  </div>
+                  <img 
+                    src={post.featuredImage} 
+                    alt={post.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="p-5">
                   <h3 className="font-heading font-bold text-lg mb-2 group-hover:text-primary transition-colors">

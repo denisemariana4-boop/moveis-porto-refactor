@@ -176,29 +176,7 @@ export const bairros = [
   { slug: "vila-sao-jose", nome: "Vila São José" },
 ];
 
-export const blogPosts = [
-  {
-    slug: "como-escolher-montador-de-moveis",
-    title: "Como Escolher um Montador de Móveis Profissional",
-    excerpt: "Descubra o que avaliar na hora de contratar um montador de móveis para garantir um serviço de qualidade.",
-    date: "2025-01-15",
-    image: "blog-escolher-montador.jpg",
-  },
-  {
-    slug: "dicas-para-montar-moveis",
-    title: "5 Dicas Essenciais Para Montar Móveis Corretamente",
-    excerpt: "Saiba quais são os principais cuidados e técnicas para uma montagem de móveis perfeita.",
-    date: "2025-01-10",
-    image: "blog-dicas-montagem.jpg",
-  },
-  {
-    slug: "moveis-planejados-vs-modulados",
-    title: "Móveis Planejados vs Modulados: Qual Escolher?",
-    excerpt: "Entenda as diferenças entre móveis planejados e modulados para fazer a melhor escolha para sua casa.",
-    date: "2025-01-05",
-    image: "blog-planejados-modulados.jpg",
-  },
-];
+// blogPosts movido para src/data/blog-posts.ts
 
 // Função para determinar preposição correta
 const getPreposicao = (nome: string): string => {
@@ -217,8 +195,9 @@ export const generateBairroContent = (bairro: { slug: string; nome: string }) =>
   const prep = getPreposicao(bairro.nome);
   
   return {
-    title: `Montador de Móveis ${prep} ${bairro.nome} com o Melhor Preço`,
-    h1: `Montador de Móveis ${prep} ${bairro.nome}`,
+    title: `Montador de Móveis ${prep} ${bairro.nome}`,
+    metaTitle: `Montador de Móveis ${prep} ${bairro.nome} - Porto Alegre`,
+    metaDescription: `Montador de móveis profissional ${prep} ${bairro.nome}, Porto Alegre. Montagem, desmontagem e conserto. Orçamento grátis!`,
     content: `Procurando um **montador de móveis profissional ${prep} ${bairro.nome}**? Você está no lugar certo! Atendemos toda a região ${prep === 'no' ? 'do' : 'da'} ${bairro.nome} em Porto Alegre com serviços de montagem, desmontagem e conserto de móveis.
 
 ## Por Que Contratar um Montador Profissional ${prep} ${bairro.nome}

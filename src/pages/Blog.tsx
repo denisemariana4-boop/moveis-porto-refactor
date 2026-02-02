@@ -43,9 +43,12 @@ const Blog = () => {
                 className="card-service group block"
               >
                 <div className="aspect-[16/10] overflow-hidden bg-muted">
-                  <div className="w-full h-full flex items-center justify-center text-muted-foreground">
-                    <span className="text-sm">Imagem do artigo</span>
-                  </div>
+                  <img 
+                    src={post.featuredImage} 
+                    alt={post.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="p-6">
                   <time className="text-sm text-muted-foreground mb-2 block">
