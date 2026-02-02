@@ -43,7 +43,7 @@ export const blogPosts: BlogPost[] = [
     category: "Dicas",
     tags: ["montador de móveis", "como escolher", "dicas", "qualidade"],
     excerpt: "Descubra o que avaliar na hora de contratar um montador de móveis para garantir um serviço de qualidade.",
-    featuredImage: "/assets/artigo1.jpg",
+    featuredImage: "/assets/artigo1-como-escolher-montador.jpg",
     readTime: 5,
     relatedPosts: ["dicas-para-montar-moveis", "moveis-planejados-vs-modulados"],
     content: `Escolher um montador de móveis profissional pode parecer simples, mas alguns cuidados são essenciais para garantir um serviço de qualidade. Neste artigo, vamos compartilhar dicas valiosas para você fazer a escolha certa.
@@ -101,7 +101,7 @@ Se você está em Porto Alegre e precisa de um montador de confiança, entre em 
     category: "Tutoriais",
     tags: ["montagem de móveis", "dicas", "tutorial", "passo a passo"],
     excerpt: "Saiba quais são os principais cuidados e técnicas para uma montagem de móveis perfeita.",
-    featuredImage: "/assets/artigo2guarda-roupa.jpg",
+    featuredImage: "/assets/artigo2-dicas-montagem.jpg",
     readTime: 7,
     relatedPosts: ["como-escolher-montador", "moveis-planejados-vs-modulados"],
     content: `A montagem de móveis pode parecer desafiadora, mas com as dicas certas, o processo fica muito mais fácil. Confira nossas 5 dicas essenciais para uma montagem perfeita.
@@ -178,7 +178,7 @@ Precisa de ajuda com a montagem dos seus móveis em Porto Alegre? Entre em conta
     category: "Guias",
     tags: ["móveis planejados", "móveis modulados", "comparativo", "decoração"],
     excerpt: "Entenda as diferenças entre móveis planejados e modulados para fazer a melhor escolha para sua casa.",
-    featuredImage: "/assets/artigo3-cama.jpg",
+    featuredImage: "/assets/artigo3-moveis-planejados.jpg",
     readTime: 8,
     relatedPosts: ["como-escolher-montador", "dicas-para-montar-moveis"],
     content: `Na hora de mobiliar a casa, uma dúvida comum é: móveis planejados ou modulados? Cada opção tem suas vantagens e desvantagens. Vamos analisar cada uma para ajudar você a decidir.

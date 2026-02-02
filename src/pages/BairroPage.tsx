@@ -68,8 +68,8 @@ const BairroPage = () => {
   return (
     <Layout>
       <SEOHead
-        title={content.title}
-        description={`Montador de móveis profissional no ${bairro.nome} em Porto Alegre. Montagem, desmontagem e conserto de móveis. Orçamento grátis!`}
+        title={content.metaTitle}
+        description={content.metaDescription}
         canonical={`${siteConfig.url}/regioes-atendidas/${bairro.slug}/`}
         schema={breadcrumbSchema}
       />
