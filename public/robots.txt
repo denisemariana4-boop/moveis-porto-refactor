@@ -1,0 +1,47 @@
+# Robots.txt - Montador de Móveis Porto Alegre
+# https://montadormoveisportoalegre.com.br
+
+# Sitemap
+Sitemap: https://montadormoveisportoalegre.com.br/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+Disallow: /src/
+Disallow: /node_modules/
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Twitter
+User-agent: Twitterbot
+Allow: /
+
+# Facebook
+User-agent: facebookexternalhit
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# WhatsApp
+User-agent: WhatsApp
+Allow: /
+
+# Pinterest
+User-agent: Pinterest
+Allow: /
+
+# Todos os outros bots
+User-agent: *
+Allow: /
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /*.json$
+Disallow: /*.ts$
+Disallow: /*.tsx$
+
+# Crawl-delay para bots menos conhecidos
+Crawl-delay: 10
