@@ -36,9 +36,11 @@ export const SEOHead = ({
     ? description.substring(0, 157) + "..." 
     : description;
 
-  const fullTitle = optimizedTitle.includes(siteConfig.name) 
-    ? optimizedTitle 
-    : `${optimizedTitle} | ${siteConfig.name}`;
+  // Não adiciona sufixo se o título já terminar com "Melhor Preço" (páginas de bairro)
+  const shouldAddSuffix = !optimizedTitle.includes("Melhor Preço") && !optimizedTitle.includes(siteConfig.name);
+  const fullTitle = shouldAddSuffix 
+    ? `${optimizedTitle} | ${siteConfig.name}` 
+    : optimizedTitle;
 
   const finalOgImage = ogImage || getDefaultOgImage();
   const canonicalUrl = canonical || siteConfig.url;
