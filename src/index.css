@@ -1,0 +1,232 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System - Montador de Móveis Porto Alegre
+   Paleta inspirada em madeira, ferramentas e confiança profissional
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap');
+
+@layer base {
+  :root {
+    /* Cores principais - Tons de madeira e azul profissional */
+    --background: 40 33% 98%;
+    --foreground: 25 30% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 25 30% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 25 30% 15%;
+
+    /* Vermelho-tijolo como primário (similar ao site de referência) */
+    --primary: 5 70% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Tons de madeira para secundário */
+    --secondary: 30 25% 92%;
+    --secondary-foreground: 25 30% 20%;
+
+    --muted: 35 20% 94%;
+    --muted-foreground: 25 15% 45%;
+
+    /* Accent com tom de madeira escura */
+    --accent: 25 35% 88%;
+    --accent-foreground: 25 40% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 30 20% 88%;
+    --input: 30 20% 88%;
+    --ring: 5 70% 45%;
+
+    --radius: 0.5rem;
+
+    /* Cores customizadas */
+    --wood-light: 35 40% 85%;
+    --wood-medium: 28 35% 45%;
+    --wood-dark: 25 40% 25%;
+    --trust-blue: 210 60% 45%;
+    --success-green: 145 60% 40%;
+    
+    /* Gradientes */
+    --gradient-hero: linear-gradient(135deg, hsl(25 40% 15% / 0.9), hsl(5 70% 35% / 0.85));
+    --gradient-cta: linear-gradient(135deg, hsl(5 70% 45%), hsl(5 80% 38%));
+    --gradient-wood: linear-gradient(180deg, hsl(35 40% 95%), hsl(30 30% 90%));
+    
+    /* Sombras */
+    --shadow-sm: 0 1px 2px 0 hsl(25 30% 15% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(25 30% 15% / 0.1), 0 2px 4px -2px hsl(25 30% 15% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(25 30% 15% / 0.1), 0 4px 6px -4px hsl(25 30% 15% / 0.1);
+    --shadow-xl: 0 20px 25px -5px hsl(25 30% 15% / 0.1), 0 8px 10px -6px hsl(25 30% 15% / 0.1);
+    --shadow-card: 0 4px 20px -2px hsl(25 30% 15% / 0.12);
+
+    /* Sidebar padrão */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 25 25% 8%;
+    --foreground: 35 20% 95%;
+
+    --card: 25 20% 12%;
+    --card-foreground: 35 20% 95%;
+
+    --popover: 25 20% 12%;
+    --popover-foreground: 35 20% 95%;
+
+    --primary: 5 65% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 25 20% 18%;
+    --secondary-foreground: 35 20% 90%;
+
+    --muted: 25 15% 20%;
+    --muted-foreground: 30 15% 60%;
+
+    --accent: 25 25% 22%;
+    --accent-foreground: 35 25% 90%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 25 15% 20%;
+    --input: 25 15% 20%;
+    --ring: 5 65% 50%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-cta);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold text-primary-foreground transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+    background: var(--gradient-cta);
+  }
+
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+    background: hsl(145 70% 40%);
+    color: white;
+  }
+
+  .card-service {
+    @apply bg-card rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2;
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-service:hover {
+    box-shadow: var(--shadow-xl);
+  }
+
+  .hero-overlay {
+    background: var(--gradient-hero);
+  }
+
+  .link-hover {
+    @apply relative inline-block;
+  }
+
+  .link-hover::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300;
+  }
+
+  .link-hover:hover::after {
+    @apply w-full;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.6s ease-out forwards;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
