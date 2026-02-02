@@ -21,7 +21,7 @@ export const siteConfig: SiteConfig = {
   name: "Montador de Móveis Porto Alegre",
   tagline: "Montagem Profissional de Móveis",
   description: "Montador de móveis profissional em Porto Alegre e Região Metropolitana. Montagem, desmontagem e conserto de móveis com garantia. Orçamento grátis!",
-  url: "https://montadorparamoveis.com.br/",
+  url: "https://montadorparamoveis.com.br",
 
   // Contato
   phone: "51998429902",
