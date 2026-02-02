@@ -2,14 +2,17 @@ import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 import { siteConfig } from "@/lib/seo";
 import { servicos, bairros } from "@/lib/data";
+import { NeighborhoodScrollBand } from "./NeighborhoodScrollBand";
 
 export const Footer = () => {
   const featuredBairros = bairros.slice(0, 10);
   const featuredServicos = servicos.slice(0, 6);
 
   return (
-    <footer className="bg-foreground text-secondary py-12">
-      <div className="container-custom">
+    <footer className="bg-foreground text-secondary">
+      {/* Scroll band with all neighborhoods */}
+      <NeighborhoodScrollBand />
+      <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Sobre */}
           <div>
