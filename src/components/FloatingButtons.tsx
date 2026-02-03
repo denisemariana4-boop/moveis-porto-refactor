@@ -1,12 +1,22 @@
 import { Phone } from "lucide-react";
 import { siteConfig } from "@/lib/seo";
+import { trackWhatsAppClick, trackPhoneClick } from "@/lib/analytics";
 
 export const FloatingButtons = () => {
+  const handlePhoneClick = () => {
+    trackPhoneClick('Flutuante');
+  };
+
+  const handleWhatsAppClick = () => {
+    trackWhatsAppClick('Flutuante');
+  };
+
   return (
     <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-3">
       {/* Phone Button */}
       <a
         href={`tel:${siteConfig.phone}`}
+        onClick={handlePhoneClick}
         className="w-14 h-14 bg-primary rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
         aria-label="Ligar agora"
       >
@@ -18,6 +28,7 @@ export const FloatingButtons = () => {
         href={siteConfig.whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
+        onClick={handleWhatsAppClick}
         className="w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg hover:shadow-xl hover:scale-110 transition-all duration-300"
         aria-label="Contato via WhatsApp"
       >
