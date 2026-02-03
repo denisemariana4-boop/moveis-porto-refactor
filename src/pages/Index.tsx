@@ -7,6 +7,7 @@ import { siteConfig, generateLocalBusinessSchema, generateFAQSchema } from "@/li
 import { servicos } from "@/lib/data";
 import { blogPosts } from "@/data/blog-posts";
 import { CheckCircle, Clock, Shield, Award } from "lucide-react";
+import { trackWhatsAppClick } from "@/lib/analytics";
 import heroImage from "@/assets/hero-montador.jpg";
 import sobreImage from "@/assets/sobre-nos.jpg";
 
@@ -87,6 +88,7 @@ const Index = () => {
               href={siteConfig.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackWhatsAppClick('Hero')}
               className="btn-primary text-lg px-8 py-4 inline-flex"
             >
               Solicite um Orçamento
