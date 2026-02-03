@@ -44,6 +44,7 @@ const ServicoPage = () => {
         description={servico.description}
         canonical={`${siteConfig.url}/servico/${servico.slug}/`}
         schema={combinedSchema}
+        noSuffix
       />
 
       {/* Hero */}
