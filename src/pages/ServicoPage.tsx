@@ -4,12 +4,12 @@ import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CTASection } from "@/components/CTASection";
 import { siteConfig, generateServiceSchema, generateBreadcrumbSchema } from "@/lib/seo";
-import { servicos } from "@/lib/data";
+import { services, getServiceBySlug } from "@/data/services";
 
 const ServicoPage = () => {
   const { slug } = useParams<{ slug: string }>();
   
-  const servico = servicos.find(s => s.slug === slug);
+  const servico = slug ? getServiceBySlug(slug) : undefined;
   
   if (!servico) {
     return <Navigate to="/servicos/" replace />;
@@ -41,7 +41,7 @@ const ServicoPage = () => {
     <Layout>
       <SEOHead
         title={`${servico.title} em Porto Alegre`}
-        description={servico.description}
+        description={servico.metaDescription}
         canonical={`${siteConfig.url}/servico/${servico.slug}/`}
         schema={combinedSchema}
         noSuffix
