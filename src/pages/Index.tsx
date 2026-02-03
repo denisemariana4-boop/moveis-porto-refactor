@@ -63,7 +63,7 @@ const Index = () => {
   return (
     <Layout>
       <SEOHead
-        title={`${siteConfig.name} | Montagem Profissional de Móveis`}
+        title={`${siteConfig.name} | Experiência COMPROVADA`}
         description="Montador de móveis profissional em Porto Alegre e Região Metropolitana. Montagem, desmontagem e conserto de móveis. Orçamento grátis!"
         canonical={siteConfig.url}
         schema={combinedSchema}
