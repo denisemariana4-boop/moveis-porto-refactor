@@ -40,7 +40,7 @@ const ServicoPage = () => {
   return (
     <Layout>
       <SEOHead
-        title={`${servico.title} em Porto Alegre | Montador de Móveis`}
+        title={`${servico.title} em Porto Alegre`}
         description={servico.description}
         canonical={`${siteConfig.url}/servico/${servico.slug}/`}
         schema={combinedSchema}
