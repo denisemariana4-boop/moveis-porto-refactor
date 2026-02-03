@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Páginas Principais -->
   <url>
-    <loc>https://montadorparamoveis.com.br/</loc>
+    <loc>https://www.montadorparamoveis.com.br/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/sobre/</loc>
+    <loc>https://www.montadorparamoveis.com.br/sobre/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servicos/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servicos/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/blog/</loc>
+    <loc>https://www.montadorparamoveis.com.br/blog/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/contato/</loc>
+    <loc>https://www.montadorparamoveis.com.br/contato/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,49 +40,49 @@
 
   <!-- Páginas de Serviços -->
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/montagem-de-guarda-roupa/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/montagem-de-guarda-roupa/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/montagem-de-cozinha/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/montagem-de-cozinha/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/montagem-de-escritorio/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/montagem-de-escritorio/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/montagem-de-cama/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/montagem-de-cama/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/montagem-de-banheiro/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/montagem-de-banheiro/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/instalacao-de-prateleiras/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/instalacao-de-prateleiras/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/desmontagem-de-moveis/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/desmontagem-de-moveis/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/servico/conserto-de-moveis/</loc>
+    <loc>https://www.montadorparamoveis.com.br/servico/conserto-de-moveis/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -90,19 +90,19 @@
 
   <!-- Páginas de Blog -->
   <url>
-    <loc>https://montadorparamoveis.com.br/blog/como-escolher-montador-de-moveis/</loc>
+    <loc>https://www.montadorparamoveis.com.br/blog/como-escolher-montador-de-moveis/</loc>
     <lastmod>2025-01-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/blog/dicas-para-montar-moveis/</loc>
+    <loc>https://www.montadorparamoveis.com.br/blog/dicas-para-montar-moveis/</loc>
     <lastmod>2025-01-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/blog/moveis-planejados-vs-modulados/</loc>
+    <loc>https://www.montadorparamoveis.com.br/blog/moveis-planejados-vs-modulados/</loc>
     <lastmod>2025-01-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -110,553 +110,553 @@
 
   <!-- Páginas de Bairros (94 bairros oficiais de Porto Alegre) -->
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/aberta-dos-morros/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/aberta-dos-morros/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/agronomia/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/agronomia/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/anchieta/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/anchieta/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/arquipelago/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/arquipelago/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/auxiliadora/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/auxiliadora/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/azenha/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/azenha/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/bela-vista/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/bela-vista/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/belem-novo/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/belem-novo/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/belem-velho/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/belem-velho/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/boa-vista/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/boa-vista/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/bom-fim/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/bom-fim/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/bom-jesus/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/bom-jesus/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/camaqua/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/camaqua/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/campo-novo/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/campo-novo/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/cascata/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/cascata/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/cavalhada/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/cavalhada/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/centro-historico/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/centro-historico/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/chacara-das-pedras/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/chacara-das-pedras/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/chapeu-do-sol/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/chapeu-do-sol/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/cidade-baixa/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/cidade-baixa/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/coronel-aparicio-borges/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/coronel-aparicio-borges/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/costa-e-silva/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/costa-e-silva/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/cristal/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/cristal/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/cristo-redentor/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/cristo-redentor/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/espirito-santo/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/espirito-santo/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/extrema/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/extrema/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/farrapos/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/farrapos/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/farroupilha/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/farroupilha/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/floresta/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/floresta/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/gloria/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/gloria/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/guaruja/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/guaruja/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/higienopolis/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/higienopolis/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/hipica/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/hipica/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/humaita/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/humaita/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/independencia/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/independencia/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/ipanema/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/ipanema/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-botanico/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-botanico/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-carvalho/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-carvalho/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-do-salso/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-do-salso/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-europa/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-europa/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-floresta/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-floresta/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-isabel/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-isabel/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-itu/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-itu/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-leopoldina/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-leopoldina/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-lindoia/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-lindoia/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-sabara/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-sabara/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/jardim-sao-pedro/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/jardim-sao-pedro/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/lageado/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/lageado/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/lami/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/lami/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/lomba-do-pinheiro/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/lomba-do-pinheiro/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/mario-quintana/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/mario-quintana/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/medianeira/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/medianeira/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/menino-deus/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/menino-deus/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/moinhos-de-vento/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/moinhos-de-vento/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/mont-serrat/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/mont-serrat/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/morro-santana/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/morro-santana/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/navegantes/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/navegantes/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/nonoai/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/nonoai/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/parque-santa-fe/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/parque-santa-fe/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/partenon/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/partenon/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/passo-da-areia/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/passo-da-areia/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/passo-das-pedras/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/passo-das-pedras/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/pedra-redonda/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/pedra-redonda/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/petropolis/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/petropolis/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/ponta-grossa/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/ponta-grossa/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/praia-de-belas/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/praia-de-belas/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/restinga/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/restinga/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/rio-branco/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/rio-branco/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/rubem-berta/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/rubem-berta/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/santa-cecilia/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/santa-cecilia/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/santa-maria-goretti/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/santa-maria-goretti/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/santa-rosa-de-lima/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/santa-rosa-de-lima/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/santa-tereza/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/santa-tereza/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/santana/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/santana/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/santo-antonio/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/santo-antonio/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/sao-caetano/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/sao-caetano/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/sao-geraldo/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/sao-geraldo/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/sao-joao/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/sao-joao/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/sao-sebastiao/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/sao-sebastiao/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/sarandi/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/sarandi/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/serraria/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/serraria/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/setimo-ceu/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/setimo-ceu/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/teresopolis/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/teresopolis/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/tres-figueiras/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/tres-figueiras/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/tristeza/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/tristeza/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/vila-assuncao/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/vila-assuncao/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/vila-conceicao/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/vila-conceicao/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/vila-ipiranga/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/vila-ipiranga/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/vila-jardim/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/vila-jardim/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/vila-joao-pessoa/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/vila-joao-pessoa/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/vila-nova/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/vila-nova/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://montadorparamoveis.com.br/regioes-atendidas/vila-sao-jose/</loc>
+    <loc>https://www.montadorparamoveis.com.br/regioes-atendidas/vila-sao-jose/</loc>
     <lastmod>2025-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
