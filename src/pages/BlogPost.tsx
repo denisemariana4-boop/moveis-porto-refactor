@@ -50,6 +50,7 @@ const BlogPost = () => {
           section: post.category,
           tags: post.tags,
         }}
+        noSuffix
       />
 
       {/* Hero */}

@@ -16,6 +16,7 @@ interface SEOHeadProps {
     tags?: string[];
   };
   noindex?: boolean;
+  noSuffix?: boolean;
 }
 
 export const SEOHead = ({
@@ -27,6 +28,7 @@ export const SEOHead = ({
   ogType = "website",
   articleMeta,
   noindex = false,
+  noSuffix = false,
 }: SEOHeadProps) => {
   // Garante que o título tenha no máximo 60 caracteres
   const optimizedTitle = title.length > 60 ? title.substring(0, 57) + "..." : title;
@@ -36,8 +38,9 @@ export const SEOHead = ({
     ? description.substring(0, 157) + "..." 
     : description;
 
-  // Não adiciona sufixo se o título já terminar com "Melhor Preço" (páginas de bairro)
-  const shouldAddSuffix = !optimizedTitle.includes("Melhor Preço") && !optimizedTitle.includes(siteConfig.name);
+  // Se noSuffix for true, não adiciona sufixo
+  // Caso contrário, não adiciona sufixo se o título já terminar com "Melhor Preço" (páginas de bairro) ou já contiver o nome do site
+  const shouldAddSuffix = !noSuffix && !optimizedTitle.includes("Melhor Preço") && !optimizedTitle.includes(siteConfig.name);
   const fullTitle = shouldAddSuffix 
     ? `${optimizedTitle} | ${siteConfig.name}` 
     : optimizedTitle;
