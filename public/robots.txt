@@ -1,8 +1,8 @@
 # Robots.txt - Montador de Móveis Porto Alegre
-# https://montadorparamoveis.com.br
+# https://www.montadorparamoveis.com.br
 
 # Sitemap
-Sitemap: https://montadorparamoveis.com.br/sitemap.xml
+Sitemap: https://www.montadorparamoveis.com.br/sitemap.xml
 
 # Google
 User-agent: Googlebot
