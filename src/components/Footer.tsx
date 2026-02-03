@@ -149,6 +149,9 @@ export const Footer = () => {
           >
             Política de Privacidade
           </Link>
+          <p className="text-muted/70 text-xs mt-4">
+            Site Desenvolvido e Otimizado por Pedro Dombrowski - Especialista em SEO Local
+          </p>
         </div>
       </div>
     </footer>
