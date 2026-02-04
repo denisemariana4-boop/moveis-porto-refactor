@@ -33,6 +33,13 @@ const BairroPage = () => {
   const renderContent = (text: string) => {
     const lines = text.split('\n');
     return lines.map((line, index) => {
+      if (line.startsWith('### ')) {
+        return (
+          <h3 key={index} className="font-heading font-semibold text-lg mt-6 mb-3">
+            {line.replace('### ', '')}
+          </h3>
+        );
+      }
       if (line.startsWith('## ')) {
         return (
           <h2 key={index} className="font-heading font-bold text-xl mt-8 mb-4">
