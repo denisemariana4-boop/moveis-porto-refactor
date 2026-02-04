@@ -82,7 +82,52 @@ Substituímos corrediças de gavetas, dobradiças de portas, trilhos de armário
 ];
 
 export const bairros = [
-  { slug: "aberta-dos-morros", nome: "Aberta dos Morros", metaTitle: "Montador de Móveis na Aberta dos Morros com o Melhor Preço", metaDescription: "Procurando um montador de móveis profissional na Aberta dos Morros? Você está no lugar certo! Atendemos toda a região da Aberta dos Morros!!" },
+  { slug: "aberta-dos-morros", nome: "Aberta dos Morros", metaTitle: "Montador de Móveis na Aberta dos Morros com o Melhor Preço", metaDescription: "Procurando um montador de móveis profissional na Aberta dos Morros? Você está no lugar certo! Atendemos toda a região da Aberta dos Morros!!", customContent: `Está procurando um montador de móveis profissional no Aberta dos Morros? Aqui você encontra atendimento especializado para montagem, desmontagem e conserto de móveis, com serviço feito do jeito certo e sem dor de cabeça.
+
+Atendemos toda a região do Aberta dos Morros, em Porto Alegre, com pontualidade, cuidado e foco em um bom acabamento.
+
+## Por Que Contratar um Montador de Móveis Profissional no Aberta dos Morros
+
+Contratar um montador experiente faz toda a diferença no resultado final. Um profissional qualificado garante que cada peça seja montada corretamente, evitando problemas futuros.
+
+Ao contratar um montador de móveis no Aberta dos Morros, você conta com:
+
+- Ferramentas adequadas para cada tipo de móvel
+- Conhecimento técnico para montagem de diferentes marcas
+- Montagem segura, alinhada e bem ajustada
+- Garantia no serviço realizado
+- Economia de tempo e menos estresse no dia a dia
+
+## Serviços de Montagem de Móveis no Aberta dos Morros
+
+Oferecemos uma solução completa para quem precisa de montagem ou ajustes em móveis residenciais e comerciais.
+
+### Montagem de Móveis Residenciais
+
+- Montagem de guarda-roupas de todas as marcas
+- Montagem de cozinhas moduladas e planejadas
+- Montagem de camas, beliches e cabeceiras
+
+### Montagem de Móveis Comerciais e Escritório
+
+- Montagem de móveis de escritório
+- Montagem de estações de trabalho e home office
+
+### Outros Serviços Disponíveis
+
+- Instalação de prateleiras e suportes de TV
+- Desmontagem de móveis para mudança
+- Conserto, ajustes e reparos em móveis
+
+## Atendimento Rápido e Local no Aberta dos Morros
+
+Atendemos o Aberta dos Morros com agilidade e compromisso. Trabalhamos de segunda a sábado, sempre buscando encaixar o atendimento no horário que for melhor para você.
+
+O orçamento é gratuito, sem compromisso, e o serviço é realizado com cuidado desde a primeira peça até o acabamento final.
+
+## Solicite Seu Orçamento
+
+Entre em contato agora mesmo e agende o serviço com um montador de móveis no Aberta dos Morros. Atendimento rápido, preço justo e trabalho bem feito.` },
   { slug: "agronomia", nome: "Agronomia", metaTitle: "Montador de Móveis na Agronomia com o Melhor Preço", metaDescription: "Procurando um montador de móveis profissional na Agronomia? Você está no lugar certo! Atendemos toda a região da Agronomia!!" },
   { slug: "anchieta", nome: "Anchieta", metaTitle: "Montador de Móveis em Anchieta com o Melhor Preço", metaDescription: "Procurando um montador de móveis profissional na Anchieta? Você está no lugar certo! Atendemos toda a região da Anchieta!!" },
   { slug: "arquipelago", nome: "Arquipélago", metaTitle: "Montador de Móveis no Arquipélago com o Melhor Preço", metaDescription: "Procurando um montador de móveis profissional no Arquipélago? Você está no lugar certo! Atendemos toda a região do Arquipélago!!" },
@@ -191,9 +236,20 @@ const getPreposicao = (nome: string): string => {
   return 'no';
 };
 
-export const generateBairroContent = (bairro: { slug: string; nome: string; metaTitle: string; metaDescription: string }) => {
+export const generateBairroContent = (bairro: { slug: string; nome: string; metaTitle: string; metaDescription: string; customContent?: string }) => {
   const prep = getPreposicao(bairro.nome);
   
+  // Se tem conteúdo personalizado, usa ele
+  if (bairro.customContent) {
+    return {
+      title: `Montador de Móveis ${prep} ${bairro.nome}`,
+      metaTitle: bairro.metaTitle,
+      metaDescription: bairro.metaDescription,
+      content: bairro.customContent,
+    };
+  }
+  
+  // Conteúdo padrão gerado automaticamente
   return {
     title: `Montador de Móveis ${prep} ${bairro.nome}`,
     metaTitle: bairro.metaTitle,
