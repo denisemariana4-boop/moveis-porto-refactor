@@ -51,7 +51,52 @@ Entre em contato agora mesmo e solicite seu orçamento sem compromisso!`;
  * Lista completa dos 94 bairros oficiais de Porto Alegre
  */
 export const neighborhoods: Neighborhood[] = [
-  { id: "aberta-dos-morros", slug: "aberta-dos-morros", name: "Aberta dos Morros", metaTitle: "Montador de Móveis no Aberta dos Morros com o Melhor Preço", metaDescription: "Montador de móveis profissional no Aberta dos Morros em Porto Alegre. Montagem, desmontagem e conserto de móveis. Orçamento grátis!", h1: "Montador de Móveis na Aberta dos Morros", description: "Serviços de montagem de móveis na Aberta dos Morros", content: generateNeighborhoodContent("Aberta dos Morros"), servicesAvailable: allServiceIds },
+  { id: "aberta-dos-morros", slug: "aberta-dos-morros", name: "Aberta dos Morros", metaTitle: "Montador de Móveis no Aberta dos Morros com o Melhor Preço", metaDescription: "Montador de móveis profissional no Aberta dos Morros em Porto Alegre. Montagem, desmontagem e conserto de móveis. Orçamento grátis!", h1: "Montador de Móveis na Aberta dos Morros", description: "Serviços de montagem de móveis na Aberta dos Morros", content: `Está procurando um montador de móveis profissional no Aberta dos Morros? Aqui você encontra atendimento especializado para montagem, desmontagem e conserto de móveis, com serviço feito do jeito certo e sem dor de cabeça.
+
+Atendemos toda a região do Aberta dos Morros, em Porto Alegre, com pontualidade, cuidado e foco em um bom acabamento.
+
+## Por Que Contratar um Montador de Móveis Profissional no Aberta dos Morros
+
+Contratar um montador experiente faz toda a diferença no resultado final. Um profissional qualificado garante que cada peça seja montada corretamente, evitando problemas futuros.
+
+Ao contratar um montador de móveis no Aberta dos Morros, você conta com:
+
+- Ferramentas adequadas para cada tipo de móvel
+- Conhecimento técnico para montagem de diferentes marcas
+- Montagem segura, alinhada e bem ajustada
+- Garantia no serviço realizado
+- Economia de tempo e menos estresse no dia a dia
+
+## Serviços de Montagem de Móveis no Aberta dos Morros
+
+Oferecemos uma solução completa para quem precisa de montagem ou ajustes em móveis residenciais e comerciais.
+
+### Montagem de Móveis Residenciais
+
+- Montagem de guarda-roupas de todas as marcas
+- Montagem de cozinhas moduladas e planejadas
+- Montagem de camas, beliches e cabeceiras
+
+### Montagem de Móveis Comerciais e Escritório
+
+- Montagem de móveis de escritório
+- Montagem de estações de trabalho e home office
+
+### Outros Serviços Disponíveis
+
+- Instalação de prateleiras e suportes de TV
+- Desmontagem de móveis para mudança
+- Conserto, ajustes e reparos em móveis
+
+## Atendimento Rápido e Local no Aberta dos Morros
+
+Atendemos o Aberta dos Morros com agilidade e compromisso. Trabalhamos de segunda a sábado, sempre buscando encaixar o atendimento no horário que for melhor para você.
+
+O orçamento é gratuito, sem compromisso, e o serviço é realizado com cuidado desde a primeira peça até o acabamento final.
+
+## Solicite Seu Orçamento
+
+Entre em contato agora mesmo e agende o serviço com um montador de móveis no Aberta dos Morros. Atendimento rápido, preço justo e trabalho bem feito.`, servicesAvailable: allServiceIds },
   { id: "agronomia", slug: "agronomia", name: "Agronomia", metaTitle: "Montador de Móveis na Agronomia com o Melhor Preço", metaDescription: "Montador de móveis profissional na Agronomia em Porto Alegre. Montagem, desmontagem e conserto de móveis. Orçamento grátis!", h1: "Montador de Móveis na Agronomia", description: "Serviços de montagem de móveis na Agronomia", content: generateNeighborhoodContent("Agronomia"), servicesAvailable: allServiceIds },
   { id: "anchieta", slug: "anchieta", name: "Anchieta", metaTitle: "Montador de Móveis na Anchieta com o Melhor Preço", metaDescription: "Montador de móveis profissional na Anchieta em Porto Alegre. Montagem, desmontagem e conserto de móveis. Orçamento grátis!", h1: "Montador de Móveis no Anchieta", description: "Serviços de montagem de móveis no Anchieta", content: `Está precisando de um montador de móveis no Anchieta confiável e experiente? Então você acabou de encontrar a solução ideal. Atendemos todo o bairro Anchieta, em Porto Alegre, oferecendo serviços completos de montagem, desmontagem e reparo de móveis com qualidade e segurança.
 
