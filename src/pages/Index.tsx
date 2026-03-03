@@ -149,7 +149,7 @@ const Index = () => {
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Trabalhamos com montagem de móveis de todas as marcas, incluindo guarda-roupas, cozinhas, 
                 camas, escritórios e muito mais. Oferecemos garantia em todos os serviços e atendimento 
-                personalizado para cada cliente.
+                personalizado para sua casa.
               </p>
               <Link to="/sobre/" className="btn-primary inline-flex">
                 Saiba mais
